@@ -1,0 +1,38 @@
+* {
+    background-color: azure;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    position: relative;
+    top: -40px;
+}
+.navmargin {
+    margin-right: 35px;
+}
+
+.workimg {
+    width: 175px;
+    height: 175px;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.profileimg {
+    width: 300px;
+    margin-right: 150px;
+}
+
+.about-me-format {
+    display: flex;
+    float: left;
+}
+
+.background-img {
+    background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg");
+    height: 800px;
+    z-index: -1;
+}
