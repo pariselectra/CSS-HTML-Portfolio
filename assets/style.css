@@ -1,17 +1,41 @@
 * {
-    background-color: azure;
     font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
+.navbar {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
 .nav {
     display: flex;
     float: right;
-    list-style-type: none;
-    position: relative;
-    top: -40px;
+    margin-left: auto;
+    background-color: #ddc9b8;
+    border: solid black 2px;
+    height: 20px;
 }
 .navmargin {
     margin-right: 35px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    background-color: #572a1b;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+h4 {
+    margin-left: 18px;
+    font-size: 20px;
 }
 
 .workimg {
@@ -19,20 +43,81 @@
     height: 175px;
     margin: 30px;
     margin-top: 0px;
+    display: inline-flex;
+    border: solid black 3px;
+}
+
+.workimg:hover {
+    opacity: 0.5;
 }
 
 .profileimg {
     width: 300px;
     margin-right: 150px;
+    max-height: 400px;
+    margin-top: auto;
 }
 
 .about-me-format {
     display: flex;
     float: left;
+    background-color: transparent;
 }
 
 .background-img {
-    background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg");
-    height: 800px;
-    z-index: -1;
+    /* background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg"); */
+    /* height: 500px; */
+    /* background-repeat: repeat; */
+    background-color: #ddc9b8;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 3px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+h6 {
+    position: relative;
+    bottom: 85px;
+    left: 63px;
+    background-color: azure;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    width: 80px;
+    border: black solid 2px;
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+.position {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectOne {
+    height: 250px;
+    width: 100%;
+}
+
+.projectOneImg {
+    width: 50%;
+}
+
+.contactflex {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.contactimg {
+    width: 175px;
+    height: 175px;
+    margin-right: 35px;
+    display: flex;
 }
