@@ -18,7 +18,9 @@ This portfolio itself is dynamic and is made to be updated as I add projects and
 Mastering spacing and dynamic response can be tricky in CSS, but overall, through trial and error, I learned how to effectively lay-out an interactive web page.
 
 ## Installation
-HTML file:
+
+HTML file: https://github.com/pariselectra/Challenge-2/blob/main/index.html
+
 CSS file:
 Live Website:
 
