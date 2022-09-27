@@ -21,7 +21,8 @@ Mastering spacing and dynamic response can be tricky in CSS, but overall, throug
 
 HTML file: https://github.com/pariselectra/Challenge-2/blob/main/index.html
 
-CSS file:
+CSS file: https://github.com/pariselectra/Challenge-2/blob/main/assets/style.css
+
 Live Website:
 
 ## Usage
