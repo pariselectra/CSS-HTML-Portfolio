@@ -55,7 +55,8 @@ Mail Icon:
 
 ## License
 MIT License
----Challenges/Challenge-2/LICENSE
+
+https://github.com/pariselectra/Challenge-2/blob/main/LICENSE
 
 ## Features
 
