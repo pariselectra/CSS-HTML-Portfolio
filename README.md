@@ -1,4 +1,4 @@
-# Challenge-2
+# CSS-HTML-Portfolio
 
 ## Description
 This was the second challenge of my coding bootcamp. The task was to create a portfolio website from scratch in order to demonstrate proficiency in HTML and CSS.  The completion criteria was relatively broad. The main goal was to master flex-box, picture spacing, and internal/external link integration.
