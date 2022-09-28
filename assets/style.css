@@ -2,23 +2,8 @@
     font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
-.navbar {
-    display: flex;
-}
-
 ul {
     list-style-type: none;
-}
-.nav {
-    display: flex;
-    float: right;
-    margin-left: auto;
-    background-color: #ddc9b8;
-    border: solid black 2px;
-    height: 20px;
-}
-.navmargin {
-    margin-right: 35px;
 }
 
 h1 {
@@ -36,41 +21,6 @@ h2 {
 h4 {
     margin-left: 18px;
     font-size: 20px;
-}
-
-.workimg {
-    width: 175px;
-    height: 175px;
-    margin: 30px;
-    margin-top: 0px;
-    display: inline-flex;
-    border: solid black 3px;
-}
-
-.workimg:hover {
-    opacity: 0.5;
-}
-
-.profileimg {
-    width: 300px;
-    margin-right: 150px;
-    max-height: 400px;
-    margin-top: auto;
-}
-
-.about-me-format {
-    display: flex;
-    float: left;
-    background-color: transparent;
-}
-
-.background-img {
-    /* background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg"); */
-    /* height: 500px; */
-    /* background-repeat: repeat; */
-    background-color: #ddc9b8;
-    display: flex;
-    flex-direction: column;
 }
 
 p {
@@ -92,6 +42,57 @@ h6 {
     border: black solid 2px;
     text-align: center;
     margin-bottom: -25px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    background-color: #ddc9b8;
+    border: solid black 2px;
+    height: 20px;
+}
+.navmargin {
+    margin-right: 35px;
+}
+
+.background-img {
+    /* background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg"); */
+    /* height: 500px; */
+    /* background-repeat: repeat; */
+    background-color: #ddc9b8;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileimg {
+    width: 300px;
+    margin-right: 150px;
+    max-height: 400px;
+    margin-top: auto;
+}
+
+.about-me-format {
+    display: flex;
+    float: left;
+    background-color: transparent;
+}
+
+.workimg {
+    width: 175px;
+    height: 175px;
+    margin: 30px;
+    margin-top: 0px;
+    display: inline-flex;
+    border: solid black 3px;
+}
+
+.workimg:hover {
+    opacity: 0.5;
 }
 
 .position {
