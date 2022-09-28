@@ -23,7 +23,7 @@ HTML file: https://github.com/pariselectra/Challenge-2/blob/main/index.html
 
 CSS file: https://github.com/pariselectra/Challenge-2/blob/main/assets/style.css
 
-Live Website:
+Live Website: https://pariselectra.github.io/CSS-HTML-Portfolio/
 
 ## Usage
 ![Live Website 1](images/Screen%20Shot%202022-09-27%20at%205.26.09%20PM.png)
