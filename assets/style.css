@@ -14,7 +14,7 @@ h2 {
     background-color: #572a1b;
     color: white;
     padding: 10px;
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
 
@@ -35,10 +35,10 @@ h6 {
     bottom: 85px;
     left: 63px;
     background-color: azure;
-    margin: 10px;
+    margin: -25px;
     padding: 5px;
     font-size: 16px;
-    width: 80px;
+    width: 160px;
     border: black solid 2px;
     text-align: center;
     margin-bottom: -25px;
@@ -74,7 +74,22 @@ h6 {
     margin-right: 150px;
     max-height: 400px;
     margin-top: auto;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
 }
+
+.profilebackground {
+    z-index: 1;
+    width: 600px;
+    margin-right: 150px;
+    max-height: 600px;
+    margin-top: auto;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
 
 .about-me-format {
     display: flex;
@@ -122,3 +137,4 @@ h6 {
     margin-right: 35px;
     display: flex;
 }
+
