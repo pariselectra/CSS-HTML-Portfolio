@@ -32,13 +32,13 @@ p {
 
 h6 {
     position: relative;
-    bottom: 85px;
-    left: 63px;
+    bottom: 45px;
+    left: 78px;
     background-color: azure;
     margin: -25px;
     padding: 5px;
     font-size: 16px;
-    width: 160px;
+    width: 220px;
     border: black solid 2px;
     text-align: center;
     margin-bottom: -25px;
@@ -61,12 +61,14 @@ h6 {
 }
 
 .background-img {
-    /* background-image: url("/Users/parisbland/Bootcamp/Challenges/Challenge-2/images/hd-beige-wallpaper-whatspaper-12.jpeg"); */
+    /* background-image: url("../images/beige\ flowers-1668617130444.jpeg"); */
     /* height: 500px; */
     /* background-repeat: repeat; */
-    background-color: #ddc9b8;
+    background: rgb(182,153,128);
+    background: linear-gradient(90deg, rgba(182,153,128,1) 0%, rgba(221,201,184,1) 100%);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    
 }
 
 .profileimg {
@@ -90,20 +92,21 @@ h6 {
     grid-row: 1;
 }
 
-
 .about-me-format {
-    display: flex;
+    /* display: flex; */
     float: left;
     background-color: transparent;
 }
 
 .workimg {
-    width: 175px;
-    height: 175px;
-    margin: 30px;
-    margin-top: 0px;
+    width: 325px;
+    height: 325px;
+    /* margin: 30px; */
+    margin-top: -40px;
+    margin-right: 2px;
     display: inline-flex;
-    border: solid black 3px;
+    border: solid #572a1b 4px;
+    box-shadow: 5px 10px 8px #ddc9b8;
 }
 
 .workimg:hover {
@@ -113,15 +116,10 @@ h6 {
 .position {
     display: flex;
     flex-wrap: wrap;
-}
-
-.projectOne {
-    height: 250px;
-    width: 100%;
-}
-
-.projectOneImg {
-    width: 30%;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 50px;
 }
 
 .contactflex {
@@ -137,4 +135,3 @@ h6 {
     margin-right: 35px;
     display: flex;
 }
-
