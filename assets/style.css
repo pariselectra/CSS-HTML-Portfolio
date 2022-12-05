@@ -102,8 +102,9 @@ h6 {
     width: 325px;
     height: 325px;
     /* margin: 30px; */
-    margin-top: -40px;
-    margin-right: 2px;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding: 10px;
     display: inline-flex;
     border: solid #572a1b 4px;
     box-shadow: 5px 10px 8px #ddc9b8;
@@ -117,9 +118,9 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
 }
 
 .contactflex {
